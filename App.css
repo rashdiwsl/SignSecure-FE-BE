@@ -1,0 +1,128 @@
+/* General layout */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f172a, #0a0f1f); /* dark gradient */
+  font-family: 'Arial', sans-serif;
+  color: #e0e0e0;
+  padding: 20px;
+}
+
+.card {
+  background: #1e293b; /* dark slate blue */
+  padding: 35px 30px;
+  border-radius: 16px;
+  width: 420px;
+  max-width: 95%;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.9);
+}
+
+h1 {
+  color: #38bdf8; /* light blue */
+  margin-bottom: 30px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* File upload styling */
+.file-upload {
+  display: block;
+  border: 2px dashed #64748b;
+  color: #94a3b8;
+  padding: 22px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+  background: #0f172a;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.file-upload:hover {
+  border-color: #38bdf8;
+  color: #38bdf8;
+}
+
+.file-upload input {
+  display: none;
+}
+
+/* Preview */
+.preview {
+  margin-bottom: 25px;
+}
+
+.preview img {
+  max-width: 100%;
+  max-height: 220px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease;
+}
+
+.preview img:hover {
+  transform: scale(1.03);
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+button {
+  flex: 1;
+  background-color: #38bdf8; /* sky blue */
+  color: black;
+  border: none;
+  padding: 14px 22px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.5);
+}
+
+button:hover {
+  background-color: #0ea5e9;
+  transform: translateY(-2px);
+}
+
+button:disabled {
+  background-color: #64748b;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+button.secondary {
+  background-color: #475569; /* dark gray */
+  color: white;
+}
+
+button.secondary:hover {
+  background-color: #334155;
+}
+
+/* Result text */
+.result-section {
+  margin-top: 25px;
+}
+
+.result {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
