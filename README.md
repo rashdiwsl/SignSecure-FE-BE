@@ -1,35 +1,31 @@
-Signature Verification App
+# Signature Verification App
+**AI-Powered Signature Verification Using CNN**
 
-AI-Powered Signature Verification Using CNN
+---
 
-Project Overview
+## Project Overview
+This app allows users to verify whether a handwritten signature is **genuine or forged** using **deep learning (CNN)**. Simply upload a signature image, and the app provides **instant verification** along with a **confidence score**.
 
-This is a Signature Verification App that uses Deep Learning (Convolutional Neural Networks) to detect genuine vs forged signatures. Users can upload a signature image and instantly verify its authenticity with a confidence score.
+The project combines **AI, React.js, Flask, and cloud-based tools** to create a full-stack machine learning application with a modern, user-friendly interface.
 
-The project demonstrates the use of AI, React.js, Flask, and cloud-based tools for a full-stack ML application.
+---
 
-Key Features
+## Key Features
+- ✅ Upload and preview signature images
+- ✅ Real-time verification with confidence score
+- ✅ Dark-themed, modern UI built with **React.js**
+- ✅ Fast backend processing with **Flask**
+- ✅ Model trained on **Kaggle signature dataset**
+- ✅ Developed and tested on **Google Colab**
 
-Upload and preview signature images
+---
 
-Real-time verification with confidence score
+## Technologies Used
+- **Frontend:** React.js, HTML, CSS
+- **Backend:** Flask, Python
+- **Deep Learning:** TensorFlow / Keras (CNN)
+- **Development Tools:** Google Colab, VS Code
+- **Dataset:** Kaggle signature dataset
 
-Dark-themed, modern UI built with React.js
+---
 
-Flask backend for model inference
-
-Trained on a Kaggle signature dataset
-
-Google Colab used for model training and experimentation
-
-Technologies Used
-
-Frontend: React.js, HTML, CSS
-
-Backend: Flask, Python
-
-Deep Learning: TensorFlow / Keras (CNN)
-
-Development Tools: Google Colab, VS Code
-
-Dataset: Kaggle signature dataset
